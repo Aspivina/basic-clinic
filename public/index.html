@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="author" content="Rossi Espinoza -AspiVina-">
+   <meta name="description" content="Basic clinic website made with educational purposes.">
+   <meta name="keywords" content="Rossi Espinoza, basi clinic website, Bootstrap, firebase, portfolio, AspiVina">
+   <title>NursingHome</title>
+   <link rel="icon" href="img/logo-heart.jpg" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/basicCss.css">
+   <link rel="stylesheet" type="text/css" href="fonts/languages.css">
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <!-- Latest compiled and minified JavaScript -->
+   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/index.js"></script>
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+               <img alt="" src="img/logo-heart.jpg">
+               <div class="my_brand">NursingHome </br><small>Servicios de Salud</small></div>
+            </a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+                  aria-expanded="false">
+                  <!-- <span class="sr-only">Toggle navigation</span> -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+               <ul class="nav navbar-nav">
+                  <!-- <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li> -->
+                  <li><a href="#nosotros" class="scrollLink" data-toggle="collapse" data-target="#mynavbar">Nosotros</a>
+                  </li>
+                  <li><a href="#prestaciones" class="scrollLink" data-toggle="collapse"
+                        data-target="#mynavbar">Prestaciones</a></li>
+                  <li><a href="#horario" class="scrollLink" data-toggle="collapse" data-target="#mynavbar">Horario de
+                        Atención</a></li>
+                  <li><a href="#contacto" class="scrollLink" data-toggle="collapse" data-target="#mynavbar">Contacto</a>
+                  </li>
+               </ul>
+            </div><!-- /.navbar-collapse -->
+         </div><!-- /.container-fluid -->
+      </nav>
+   </header>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><span
+         class="glyphicon glyphicon-chevron-up"></span></button>
+   <!-- <img src="img/enfermera.jpg" style="width:100%;"> -->
+   <section>
+      <div id="nosotros" class="nosotros">
+         <div class="parallax"></div>
+         <div class="centered">
+            <h1>Bienvenido a</h1>
+            <h1><strong>NursingHome</strong></h1>
+            <h2 class="cursiva">Servicios de Salud</h2>
+            <p><strong>Lorem ipsum</strong>  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+         </div>
+
+      </div>
+      <!-- <div class="container-fluid"> -->
+      <div id="prestaciones" class="container-fluid prestaciones">
+         <h2>Prestaciones</h2>
+         <h2 class="cursiva">Brindamos los siguientes servicios</h2>
+         <div class="row">
+            <div class="col-sm-6 col-md-4">
+               <div class="card">
+                  <div class="cardImg">
+                     <img src="img/nursing.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                     </br>
+                     <h4 class="card-title">Cuidados Domiciliarios</h4>
+                     </br>
+                     <p class="card-text cursiva">Internación Domiciliaria</p>
+                     </br>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+               <div class="card">
+                  <div class="cardImg">
+                     <img src="img/paliativos.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                     </br>
+                     <h4 class="card-title">Cuidados Paliativos</h4>
+                     </br>
+                     <p class="card-text cursiva">Atención de calidad</p>
+                     </br>
+                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+               <div class="card">
+                  <div class="cardImg">
+                     <img src="img/pressure.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                     </br>
+                     <h4 class="card-title">Servicios Complementarios</h4>
+                     </br>
+                     <p class="card-text cursiva">Complementan nuestros servicios principales</p>
+                     </br>
+                     <p class="card-text"><strong>Lorem
+                           </br>
+                           Ipsum
+                           </br>
+                           Dolor
+                           </br>
+                           Sit
+                        </strong>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="horario" class="horario">
+         </br>
+         <div class="horaBox">
+            <img src="img/skilled-nursing-home-services.jpg">
+         </div>
+         <div class="hora-centered">
+            <h1>Horario</h1>
+            <h2 class="cursiva">Visitenos</h2>
+            <p>Lunes - Viernes: 9:00 am - 6:00 pm</p>
+            <p>Sábado: 10:00 am - 2:00 pm</p>
+            <p>Domingo: Cerrado</p>
+         </div>
+         </br>
+      </div>
+      <div id="contacto" class="container-fluid contactar">
+         <div class="row cont_back">
+            <div class=" col-md-7 col-xs-12">
+               <h2>Contactar</h2>
+            </div>
+            <form role="form" novalidate="" class="my_form bg-light" action="https://formspree.io/aspivina@gmail.com"
+            method="POST">
+            <div class=" col-md-5 col-xs-12">
+               <div class="col-md-6 col-xs-6">
+                  <input type="text" class="form-control" name="Nombre" value="" placeholder="Nombre">
+               </div>
+               <div class="col-md-6 col-xs-6">
+                  <input type="text" class="form-control" name="Email" value="" placeholder="Email">
+               </div>
+               <div class="col-md-12">
+                  <input type="text" class="form-control" name="Asunto" value="" placeholder="Asunto">
+               </div>
+               <div class="col-md-12">
+                  <input type="text" class="form-control" name="Telefono" value="" placeholder="Teléfono">
+               </div>
+               <div class="col-md-12">
+                  <input type="text" class="form-control" name="Direccion" value="" placeholder="Dirección">
+               </div>
+               <div class="col-md-12">
+                  <textarea class="form-control" rows="5" name="Mensaje" value="" placeholder="Mensaje"></textarea>
+               </div>
+               <div class="col-md-12">
+                  <button type="submit" class="form-control">Enviar</button>
+               </div>
+               </br>
+            </div>
+            </form>
+         </div>
+         <div class="row cont_img">
+            <div class="col-md-12 col-xs-12 pepito">
+               <div class="temp">
+                  <img src="img/enfermera5.png" class="" alt="...">
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+      <!-- </div> -->
+
+   </section>
+   <footer class="footer">
+      <ul>
+         <li><a class="text-white" title="GitHub" href="https://github.com/Aspivina" target="_blank">
+               <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+         </li>
+         <li><a class="text-white" title="LinkedIn" href="https://www.linkedin.com/in/rossiespinoza/" target="_blank">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+         </li>
+      </ul>
+      <p>©2019 by AspiVina</a></p>
+
+
+   </footer>
+</body>
+
+</html>
